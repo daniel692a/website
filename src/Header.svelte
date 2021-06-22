@@ -4,7 +4,7 @@
 <header>
     <nav>
         <ul>
-            <li><a href="">About</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="">Projects</a></li>
             <li><a href="">Contact</a></li>
         </ul>
@@ -14,7 +14,7 @@
 <style>
     header {
         width: 100%;
-        height: 8rem;
+        height: 10rem;
         font-family: monospace;
         font-size: 2.5rem;
     }

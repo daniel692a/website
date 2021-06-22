@@ -1,0 +1,107 @@
+<script>
+    import profile from './assets/profilepic.jpg';
+</script>
+
+<section class='presentation'>
+    <figure>
+        <img src="{profile}" alt="Daniel's picture">
+    </figure>
+    <section class="intro">
+        <h2>Daniel Armas Ramírez</h2>
+        <h4>Backend Developer and ML enthusiast.</h4>
+    </section>
+</section>
+
+<style>
+    .presentation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+    figure{
+        width: 30rem;
+        height: 30rem;
+        margin-right: 1.5rem;
+        position: relative;
+    }
+    figure img{
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+        border: 5px solid #F7F5DD;
+    }
+    figure::before {
+        content: "";
+        position: absolute;
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        background-color: #67001E;
+        top: -60px;
+        left: -60px;
+        z-index: -1;
+    }
+    figure::after {
+        content: "";
+        position: absolute;
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        background-color: #007662;
+        z-index: -1;
+        bottom: -50px;
+        right: -50px;
+    }
+    .intro {
+        background-color: rgb(30, 30, 30);
+        width: 48rem;
+        color: #fff;
+        font-family: 'Ubuntu', sans-serif;
+        height: 20rem;
+        padding: 2rem;
+        border-radius: 0.4rem;
+    }
+    h2{
+        font-size: 3rem;
+        overflow: hidden;
+        letter-spacing: 0.3rem;
+        white-space: nowrap;
+        animation: typing 2s steps(20, end), blink-caret .6s step-end infinite;
+    }
+    h2::before{
+        content: '>_';
+        margin-right: 1rem;
+    }
+    h4{
+        font-size: 2rem;
+        white-space: nowrap;
+        font-family: monospace;
+        overflow: hidden;
+        padding-top: 1rem;
+        animation: typing 3s steps(35, end) , blink-caret .4s step-end infinite;
+        animation-delay: 2.5s;
+    }
+    @keyframes typing{
+        from { width: 0}
+        to {width: 100%}
+    }
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: rgb(196, 134, 19); }
+    }
+    @media (max-width: 940px){
+        .presentation {
+            height: auto;
+            margin-top: 4rem;
+            flex-direction: column;
+        }
+        figure {
+            width: 23rem;
+            height: 23rem;
+            margin-bottom: 2rem;
+        }
+    }
+    @media (max-width: 480px) {
+    }
+</style>
