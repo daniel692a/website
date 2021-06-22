@@ -18,6 +18,8 @@
     "svelte": "^3.38.2"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0"
+    "@rollup/plugin-url": "^6.0.0",
+    "sirv-cli": "^1.0.0",
+    "svelte-assets-preprocessor": "0.0.7"
   }
 }

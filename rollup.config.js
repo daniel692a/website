@@ -4,8 +4,8 @@ import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import css from 'rollup-plugin-css-only';
-// import importAssets from 'rollup-plugin-import-assets';
-// import bundleTree from 'rollup-plugin-bundle-tree';
+import assetsPreprocessor from 'svelte-assets-preprocessor';
+import url from '@rollup/plugin-url';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -39,19 +39,9 @@ export default {
 		file: 'public/build/bundle.js'
 	},
 	plugins: [
-		// bundleTree({
-		// 	file: 'bundle-tree.json',
-		// }),
-		// importAssets({
-		// 	//files to import
-		// 	include: [ /\.gif$/i, /\.jpg$/i, /\.png$/i, /\.svg$/i],
-		// 	//files to exclude
-		// 	exclude: [],
-		// 	emitAssets: true,
-		// 	filenames: 'assets/[name]-[hash].[ext]',
-		// 	publicPath: ''
-		// }),
+		url({ destDir: 'public' }),
 		svelte({
+			preprocess: assetsPreprocessor({}),
 			compilerOptions: {
 				// enable run-time checks when not in production
 				dev: !production

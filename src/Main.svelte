@@ -1,15 +1,15 @@
 <script>
-    import profile from './assets/profilepic.jpg'
+    import profile from './assets/profilepic.jpg';
 </script>
 
 <main>
     <section class='presentation'>
         <figure>
-            <img src="{profile}" alt="">
+            <img src="{profile}" alt="Daniel's picture">
         </figure>
         <section class="intro">
             <h2>Daniel Armas Ramírez</h2>
-            <h4>Frontend Developer and ML enthusiast.</h4>
+            <h4 id='desc'>Frontend Developer and ML enthusiast.</h4>
         </section>
     </section>
 </main>
@@ -19,8 +19,22 @@
         width: 100%;
     }
     .presentation {
+        margin-top: 2rem;
         display: flex;
         justify-content: center;
+        align-items: center;
+        height: 60vh;
+    }
+    figure{
+        width: 30rem;
+        overflow: hidden;
+        height: 30rem;
+        margin-right: 1.5rem;
+    }
+    figure img{
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
     }
     .intro {
         background-color: rgb(30, 30, 30);
@@ -45,7 +59,7 @@
     h4{
         font-size: 2rem;
         white-space: nowrap;
-        width: 0;
+        font-family: monospace;
         overflow: hidden;
         padding-top: 1rem;
         animation: typing 3s steps(36, end) , blink-caret .4s step-end infinite;
@@ -57,6 +71,6 @@
     }
     @keyframes blink-caret {
         from, to { border-color: transparent }
-        50% { border-color: orange; }
+        50% { border-color: rgb(196, 134, 19); }
     }
 </style>
