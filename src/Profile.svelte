@@ -17,7 +17,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 80vh;
+        height: 90vh;
     }
     figure{
         width: 30rem;
@@ -34,24 +34,22 @@
     figure::before {
         content: "";
         position: absolute;
-        width: 15rem;
-        height: 15rem;
-        border-radius: 50%;
+        width: 30rem;
+        height: 30rem;
         background-color: #67001E;
-        top: -60px;
-        left: -60px;
+        top: -3rem;
+        left: -3rem;
         z-index: -1;
     }
     figure::after {
         content: "";
         position: absolute;
-        width: 15rem;
-        height: 15rem;
-        border-radius: 50%;
+        width: 30rem;
+        height: 30rem;
         background-color: #007662;
         z-index: -1;
-        bottom: -50px;
-        right: -50px;
+        bottom: -3rem;
+        right: -3rem;
     }
     .intro {
         background-color: rgb(30, 30, 30);

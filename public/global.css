@@ -14,3 +14,10 @@ body {
 	font-family: 'Ubuntu';
 	src: local('Ubuntu Medium'), url(../src/fonts/Ubuntu-Medium.ttf), format('truetype');
 }
+html::-webkit-scrollbar {
+	background-color: #f88b7d;
+}
+html::-webkit-scrollbar-thumb {
+	background-color: #67001E;
+	border-radius: 1rem;
+}
