@@ -67,7 +67,7 @@
         overflow: hidden;
         letter-spacing: 0.3rem;
         white-space: nowrap;
-        animation: typing 2s steps(20, end), blink-caret .6s step-end infinite;
+        animation: typing 1.5s steps(20, end), blink-caret .6s step-end infinite;
     }
     h2::before{
         content: '>_';
@@ -79,8 +79,8 @@
         font-family: monospace;
         overflow: hidden;
         padding-top: 1rem;
-        animation: typing 3s steps(35, end) , blink-caret .4s step-end infinite;
-        animation-delay: 2.5s;
+        animation: typing 2s steps(35, end) , blink-caret .4s step-end infinite;
+        animation-delay: 2s;
     }
     @keyframes typing{
         from { width: 0}

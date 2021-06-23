@@ -46,4 +46,9 @@
         visibility: visible;
         width: 100%;
     }
+    @media (max-width: 500px) {
+        header{
+            font-size: 2rem;
+        }
+    }
 </style>

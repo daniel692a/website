@@ -28,16 +28,28 @@
         flex-direction: row-reverse;
     }
     .descrip figure {
-        border-radius: 1rem;
         width: 30rem;
-        height: 30rem;
-        overflow: hidden;
-        margin-left: 2rem;
+        height: 25rem;
+        margin-left: 3rem;
+        position: relative;
     }
     .descrip figure img{
+        border-radius: 1rem;
         width: 100%;
         height: 100%;
         border: 4px solid #F7F5DD;
+    }
+    .descrip figure::before{
+        content: "";
+        position: absolute;
+        width: 30rem;
+        height: 25rem;
+        background-color: #007662;
+        left: 2rem;
+        top: 1.5rem;
+        left: 4rem;
+        z-index: -1;
+        border-radius: 1rem;
     }
     h2 {
         font-size: 4.5rem;
