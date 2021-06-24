@@ -33,6 +33,7 @@
         justify-content: space-around;
         align-items: center;
         flex-direction: row-reverse;
+        flex-wrap: wrap;
     }
     .descrip figure {
         width: 50rem;
@@ -51,5 +52,25 @@
         text-align: justify;
         line-height: 1.4;
         margin-left: 5rem;
+    }
+    @media (max-width: 860px) {
+        .descrip {
+            flex-direction: column;
+        }
+        .descrip figure {
+            width: 30rem;
+            height: 30rem;
+            margin-bottom: 2rem;
+        }
+        p {
+            width: 50%;
+            margin-left: 0;
+        }
+    }
+    @media (max-width: 580px) {
+        p{
+            width: 70%;
+        }
+
     }
 </style>

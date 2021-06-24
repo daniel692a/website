@@ -3,15 +3,13 @@
     import JavaScript from './assets/javascript.svg';
     import Python from './assets/python.svg';
     import Julia from './assets/julia.svg'
+    import Cplusplus from './assets/cplusplus.svg'
     import Svelte from './assets/svelte.svg';
     import React from './assets/react.svg';
     import Flask from './assets/flask.svg';
 </script>
 
 <section class="skillset">
-    <figure class="float">
-        <img src="{macBook}" alt="MacBook picture">
-    </figure>
     <h2>Skillset</h2>
     <section class="tools">
         <h3>Programming Languages:</h3>
@@ -19,6 +17,7 @@
             <li><img src="{JavaScript}" alt="JavaScript Icon"><span>JavaScript</span></li>
             <li><img src="{Python}" alt="Python icon"><span>Python</span></li>
             <li><img src="{Julia}" alt="Julia icon"><span>Julia</span></li>
+            <li><img src="{Cplusplus}" alt="C++ icon"><span>C++</span></li>
         </ul>
         <h3>Frontend Tools:</h3>
         <ul>
@@ -44,19 +43,6 @@
         text-align: center;
         font-size: 4.5rem;
     }
-    .float {
-        width: 30rem;
-        height: 20rem;
-        position: absolute;
-        z-index: 2;
-        right: 10rem;
-        top: 14rem;
-    }
-    .float img {
-        width: 100%;
-        height: 100%;
-        transform: rotate(0.7turn);
-    }
     .tools {
         padding: 3rem 0;
     }
@@ -67,6 +53,7 @@
     .tools ul {
         list-style: none;
         display: flex;
+        flex-wrap: wrap;
     }
     .tools ul li {
         background-color: #F7F5DD;
@@ -76,7 +63,7 @@
         overflow: hidden;
         border-radius: 3rem;
         padding: 1rem 3rem;
-        margin: 0 1.5rem;
+        margin: 0.8rem 1.5rem;
     }
     .tools ul li img {
         height: 100%;

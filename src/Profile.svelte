@@ -17,6 +17,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         height: 90vh;
     }
     figure{
@@ -90,13 +91,13 @@
     }
     @media (max-width: 940px) {
         .presentation {
+            justify-content: space-evenly;
             flex-direction: column;
         }
     }
     @media (max-width: 480px){
         .presentation {
             flex-direction: column;
-            justify-content: space-evenly;
         }
         figure {
             width: 20rem;
