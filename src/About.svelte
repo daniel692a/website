@@ -11,7 +11,7 @@
                 <img src="{Coding}" alt="Coding">
             </figure>
             <p>Hello everyone, my name is Daniel, I'm a developer located in Mexico, I'm passionate about the world of technology, especially Artificial Intelligence and data science.<br>
-            I'm currently working as a backend developer and I'm researching on Machine Learning, I collaborate in both local and national software communities. My dream is to be a ML engineer.</p>
+            I'm currently working as a backend developer and I'm researching on <i><b>Machine Learning</b></i>, I collaborate in both local and national software communities. My dream is to be a ML engineer.</p>
         </section>
     </Reveal>
 </section>
@@ -47,7 +47,7 @@
     p {
         font-size: 1.8rem;
         width: 30%;
-        font-weight: 600;
+        font-weight: 560;
         text-align: justify;
         line-height: 1.4;
         margin-left: 5rem;
