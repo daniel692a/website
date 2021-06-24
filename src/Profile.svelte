@@ -88,18 +88,38 @@
         from, to { border-color: transparent }
         50% { border-color: rgb(196, 134, 19); }
     }
-    @media (max-width: 940px){
+    @media (max-width: 940px) {
         .presentation {
-            height: auto;
-            margin-top: 4rem;
             flex-direction: column;
         }
-        figure {
-            width: 23rem;
-            height: 23rem;
-            margin-bottom: 2rem;
-        }
     }
-    @media (max-width: 480px) {
+    @media (max-width: 480px){
+        .presentation {
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        figure {
+            width: 20rem;
+            height: 20rem;
+        }
+        figure::before {
+            width: 20rem;
+            height: 20rem;
+        }
+        figure::after {
+            width: 20rem;
+            height: 20rem;
+        }
+        .intro {
+            width: 90%;
+        }
+        h2{
+            font-size: 2.5rem;
+            white-space: normal;
+        }
+        h4{
+            white-space: normal;
+            font-size: 1.7rem;
+        }
     }
 </style>

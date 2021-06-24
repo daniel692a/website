@@ -1,6 +1,6 @@
 <script>
     import Reveal from 'svelte-c-reveal';
-    import Coding from './assets/coding.jpg';
+    import Coding from './assets/cod.png';
 </script>
 
 <section id="about">
@@ -35,7 +35,8 @@
         flex-direction: row-reverse;
     }
     .descrip figure {
-        width: 70rem;
+        width: 50rem;
+        height: 50rem;
         border-radius: 1rem;
         overflow: hidden;
     }

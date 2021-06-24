@@ -5,8 +5,8 @@
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -47,8 +47,8 @@
         width: 100%;
     }
     @media (max-width: 500px) {
-        header{
-            font-size: 2rem;
+        ul{
+            padding: 0 2rem;
         }
     }
 </style>
