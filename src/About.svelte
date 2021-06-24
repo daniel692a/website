@@ -8,7 +8,7 @@
     <Reveal duration="1" reveal="fadeInLeft">
         <section class="descrip">
             <figure>
-                <img src="{Coding}" alt="Coding">
+                <img src="{Coding}" alt="Desk with a computer">
             </figure>
             <p>Hello everyone, my name is Daniel, I'm a developer located in Mexico, I'm passionate about the world of technology, especially Artificial Intelligence and data science.<br>
             I'm currently working as a backend developer and I'm researching on <i><b>Machine Learning</b></i>, I collaborate in both local and national software communities. My dream is to be a ML engineer.</p>
