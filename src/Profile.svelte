@@ -91,13 +91,32 @@
     @media (max-width: 940px) {
         .presentation {
             flex-direction: column;
+            justify-content: space-evenly;
+        }
+        figure {
+            margin-right: 0;
+            width: 25rem;
+            height: 25rem;
+        }
+        figure::before {
+            width: 25rem;
+            height: 25rem;
+        }
+        figure::after {
+            width: 25rem;
+            height: 25rem;
+        }
+        .intro {
+            width: 40rem;
+        }
+        h2{
+            white-space: normal;
+        }
+        h4{
+            white-space: normal;
         }
     }
     @media (max-width: 480px){
-        .presentation {
-            flex-direction: column;
-            justify-content: space-evenly;
-        }
         figure {
             width: 20rem;
             height: 20rem;
@@ -111,14 +130,12 @@
             height: 20rem;
         }
         .intro {
-            width: 90%;
+            width: 80%;
         }
         h2{
             font-size: 2.5rem;
-            white-space: normal;
         }
         h4{
-            white-space: normal;
             font-size: 1.7rem;
         }
     }
