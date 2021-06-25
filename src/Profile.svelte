@@ -41,6 +41,7 @@
         top: -3rem;
         left: -3rem;
         z-index: -1;
+        border-radius: 1rem;
     }
     figure::after {
         content: "";
@@ -51,6 +52,7 @@
         z-index: -1;
         bottom: -3rem;
         right: -3rem;
+        border-radius: 1rem;
     }
     .intro {
         background-color: rgb(30, 30, 30);

@@ -40,6 +40,7 @@
         position: relative;
     }
     .skillset h2 {
+        padding-top: 2rem;
         text-align: center;
         font-size: 4.5rem;
     }
