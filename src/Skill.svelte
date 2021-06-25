@@ -1,5 +1,4 @@
 <script>
-    import macBook from './assets/MacBook.png';
     import JavaScript from './assets/javascript.svg';
     import Python from './assets/python.svg';
     import Julia from './assets/julia.svg'

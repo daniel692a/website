@@ -1,23 +1,34 @@
 <script>
-    // let hamburger, navMenu;
-    // hamburger.addEventListener('click', mobileMenu);
-    // const mobileMenu = () =>{
-    //     hamburger.classList.toggle('active');
-    //     navMenu.classList.toggle('active');
-    // }
+    import { onMount } from 'svelte'
+    let hamburger, navMenu;
+    let openMenu = false;
+    const closeMenu = () =>{
+        openMenu = false;
+        mobileMenu();
+    }
+    onMount(() => {
+        const mobileMenu = () =>{
+            if(openMenu === false){
+                openMenu = true;
+            } else {
+                openMenu = false;
+            }
+        }
+        hamburger.addEventListener('click', mobileMenu);
+    })
 </script>
 
 <header>
     <nav>
-        <ul class="nav-menu" >
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <ul class="nav-menu" bind:this={navMenu} class:active={openMenu === true}>
+            <li><a href="#about" on:click={closeMenu}>About</a></li>
+            <li><a href="#projects" on:click={closeMenu}>Projects</a></li>
+            <li><a href="#contact" on:click={closeMenu}>Contact</a></li>
         </ul>
-        <section class="hamburger" >
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+        <section bind:this={hamburger} class="hamburger" aria-label="Menu">
+            <span class="bar" class:move1={openMenu === true}></span>
+            <span class="bar" class:enable={openMenu === true}></span>
+            <span class="bar" class:move2={openMenu === true}></span>
         </section>
     </nav>
 </header>
@@ -69,25 +80,38 @@
         transition: all 0.3s ease-in-out;
         background-color: #101010;
     }
+    .enable{
+        opacity: 0;
+    }
+    .move1{
+        transform: translateY(8px) rotate(45deg);
+    }
+    .move2{
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .active{
+        left: 0%;
+    }
     @media (max-width: 500px) {
         ul{
             padding: 0 2rem;
             position: fixed;
             left: -100%;
             flex-direction: column;
+            width: 100%;
+            transition: 0.3s;
+            background-color: #fee140;
+            margin: 3.5rem 0 0 0;
+            z-index: 3;
         }
         .hamburger{
+            width: 100%;
+            z-index: 4;
+            padding: 1rem 0;
+            position: fixed;
             display: block;
             cursor: pointer;
+            background-color: #fee140;
         }
-        /* .hamburger.active .bar:nth-child(2){
-            opacity: 0;
-        }
-        .hamburger.active .bar:nth-child(1){
-            transform: translateY(8px) rotate(45deg);
-        }
-        .hamburger.active .bar:nth-child(3){
-            transform: translateY(-8px) rotate(-45deg);
-        } */
     }
 </style>
