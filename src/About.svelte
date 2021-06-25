@@ -10,7 +10,7 @@
             <figure>
                 <img src="{Coding}" alt="Desk with a computer">
             </figure>
-            <p>Hello everyone, my name is Daniel, I'm a developer located in Mexico, I'm passionate about the world of technology, especially Artificial Intelligence and data science.<br>
+            <p>Hello everyone, my name is Daniel, I'm a developer located in <i>Mexico</i>, I'm passionate about the world of technology, especially <b><i>artificial intelligence and data science.</i></b><br>
             I'm currently working as a backend developer and I'm researching on <i><b>Machine Learning</b></i>, I collaborate in both local and national software communities. My dream is to be a ML engineer.</p>
         </section>
     </Reveal>
@@ -51,7 +51,6 @@
         font-weight: 560;
         text-align: justify;
         line-height: 1.4;
-        margin-left: 5rem;
     }
     @media (max-width: 860px) {
         .descrip {

@@ -10,10 +10,6 @@ html {
 body {
 	background: linear-gradient(to top, #dd6589 0%, #f88b7d 60%, #fee140 100%) no-repeat fixed;
 }
-@font-face {
-	font-family: 'Ubuntu';
-	src: local('Ubuntu Medium'), url(../src/fonts/Ubuntu-Medium.ttf), format('truetype');
-}
 html::-webkit-scrollbar {
 	background-color: #f88b7d;
 }
