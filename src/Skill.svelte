@@ -6,6 +6,10 @@
     import Svelte from './assets/svelte.svg';
     import React from './assets/react.svg';
     import Flask from './assets/flask.svg';
+    import TensorFlow from './assets/tensorflow.svg';
+    import Pandas from './assets/pandas.svg';
+    import NumPy from './assets/numpy.svg';
+    import ScikitLearn from './assets/scikitlearn.svg';
 </script>
 
 <section class="skillset">
@@ -26,6 +30,13 @@
         <h3>Backend Tools:</h3>
         <ul>
             <li><img src="{Flask}" alt="Flask icon"><span>Flask</span></li>
+        </ul>
+        <h3>ML Tools:</h3>
+        <ul>
+            <li><img src="{TensorFlow}" alt="TensorFlow icon"><span>TensorFlow</span></li>
+            <li><img src="{ScikitLearn}" alt="ScikitLearn icon"><span>ScikitLearn</span></li>
+            <li><img src="{Pandas}" alt="Pandas icon"><span>Pandas</span></li>
+            <li><img src="{NumPy}" alt="NumPy icon"><span>NumPy</span></li>
         </ul>
     </section>
 </section>
