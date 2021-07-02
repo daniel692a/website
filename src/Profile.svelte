@@ -17,7 +17,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 80vh;
+        flex-wrap: wrap;
+        height: 90vh;
     }
     figure{
         width: 30rem;
@@ -34,24 +35,24 @@
     figure::before {
         content: "";
         position: absolute;
-        width: 15rem;
-        height: 15rem;
-        border-radius: 50%;
+        width: 30rem;
+        height: 30rem;
         background-color: #67001E;
-        top: -60px;
-        left: -60px;
+        top: -3rem;
+        left: -3rem;
         z-index: -1;
+        border-radius: 1rem;
     }
     figure::after {
         content: "";
         position: absolute;
-        width: 15rem;
-        height: 15rem;
-        border-radius: 50%;
+        width: 30rem;
+        height: 30rem;
         background-color: #007662;
         z-index: -1;
-        bottom: -50px;
-        right: -50px;
+        bottom: -3rem;
+        right: -3rem;
+        border-radius: 1rem;
     }
     .intro {
         background-color: rgb(30, 30, 30);
@@ -67,7 +68,7 @@
         overflow: hidden;
         letter-spacing: 0.3rem;
         white-space: nowrap;
-        animation: typing 2s steps(20, end), blink-caret .6s step-end infinite;
+        animation: typing 1.5s steps(20, end), blink-caret .6s step-end infinite;
     }
     h2::before{
         content: '>_';
@@ -79,8 +80,8 @@
         font-family: monospace;
         overflow: hidden;
         padding-top: 1rem;
-        animation: typing 3s steps(35, end) , blink-caret .4s step-end infinite;
-        animation-delay: 2.5s;
+        animation: typing 2s steps(35, end) , blink-caret .4s step-end infinite;
+        animation-delay: 2s;
     }
     @keyframes typing{
         from { width: 0}
@@ -90,18 +91,56 @@
         from, to { border-color: transparent }
         50% { border-color: rgb(196, 134, 19); }
     }
-    @media (max-width: 940px){
+    @media (max-width: 940px) {
         .presentation {
-            height: auto;
-            margin-top: 4rem;
+            justify-content: space-evenly;
             flex-direction: column;
+            justify-content: space-evenly;
         }
         figure {
-            width: 23rem;
-            height: 23rem;
-            margin-bottom: 2rem;
+            margin-right: 0;
+            width: 25rem;
+            height: 25rem;
+        }
+        figure::before {
+            width: 25rem;
+            height: 25rem;
+        }
+        figure::after {
+            width: 25rem;
+            height: 25rem;
+        }
+        .intro {
+            width: 40rem;
+        }
+        h2{
+            white-space: normal;
+        }
+        h4{
+            white-space: normal;
         }
     }
-    @media (max-width: 480px) {
+    @media (max-width: 480px){
+        figure {
+            width: 20rem;
+            height: 20rem;
+        }
+        figure::before {
+            width: 20rem;
+            height: 20rem;
+        }
+        figure::after {
+            width: 20rem;
+            height: 20rem;
+        }
+        .intro {
+            width: 80%;
+        }
+        h2{
+            font-size: 2.5rem;
+        }
+        h4{
+            font-size: 1.7rem;
+        }
     }
 </style>
