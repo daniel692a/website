@@ -11,7 +11,8 @@
                 <img src="{Coding}" alt="Desk with a computer">
             </figure>
             <p>Hello everyone, my name is Daniel, I'm a software developer located in <i>Mexico</i>, I'm passionate about the world of technology, especially <b><i>artificial intelligence and data science.</i></b><br>
-            I'm currently working as a backend developer and I'm researching on <i><b>Machine Learning</b></i>, I collaborate in both local and national software communities. My dream is to be a ML engineer.</p>
+            I'm currently working as a backend developer and I'm researching on <i><b>Machine Learning</b></i>, I collaborate in both local and national software communities. My dream is to be a ML engineer.
+            <b><i>I'll soon study data science at <a href="https://www.escom.ipn.mx/" target="_blank" rel="noopener noreferrer">ESCOM-IPN</a></i></b></p>
         </section>
     </Reveal>
 </section>
@@ -51,6 +52,9 @@
         font-weight: 560;
         text-align: justify;
         line-height: 1.4;
+    }
+    a{
+        color: #612727;
     }
     @media (max-width: 860px) {
         .descrip {

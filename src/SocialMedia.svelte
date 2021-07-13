@@ -75,7 +75,8 @@
         width:8rem;
     }
     .social-link figure{
-        width: 8rem;
+        margin: 1rem auto;
+        width: 7rem;
     }
     .social-link img {
         width: 100%;

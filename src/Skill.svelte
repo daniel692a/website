@@ -34,8 +34,6 @@
         <h3>ML Tools:</h3>
         <ul>
             <li><img src="{TensorFlow}" alt="TensorFlow icon"><span>TensorFlow</span></li>
-            <li><img src="{ScikitLearn}" alt="ScikitLearn icon"><span>ScikitLearn</span></li>
-            <li><img src="{Pandas}" alt="Pandas icon"><span>Pandas</span></li>
             <li><img src="{NumPy}" alt="NumPy icon"><span>NumPy</span></li>
         </ul>
     </section>
