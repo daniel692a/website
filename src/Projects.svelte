@@ -45,7 +45,7 @@
 
 <style>
     #projects {
-        background-color: #00B1AC;
+        background-color: #015066;
         width: 100%;
         font-family: 'Ubuntu', sans-serif;
     }
@@ -53,6 +53,7 @@
         text-align: center;
         font-size: 4.5rem;
         padding-top: 5rem;
+        color: #efefef;
     }
     .container-projects {
         margin-top: 3rem;
@@ -77,7 +78,7 @@
     }
     .card {
         width: 20rem;
-        background-color: #334B4A;
+        background-color: #007696;
         border-radius: 1rem;
         overflow: hidden;
         cursor: pointer;

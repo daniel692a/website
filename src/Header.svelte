@@ -50,7 +50,7 @@
     }
     a {
         text-decoration: none;
-        color: #000;
+        color: #efefef;
         position: relative;
     }
     a::before {
@@ -61,7 +61,7 @@
         bottom: 0;
         left: 0;
         visibility: hidden;
-        background-color: #000;
+        background-color: #efefef;
         transition: all 0.3s ease-in-out;
     }
     a:hover::before {
@@ -78,7 +78,7 @@
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #101010;
+        background-color: #efefef;
     }
     .enable{
         opacity: 0;
@@ -100,7 +100,7 @@
             flex-direction: column;
             width: 100%;
             transition: 0.3s;
-            background-color: #fee140;
+            background-color: #6D597A;
             margin: 3.5rem 0 0 0;
             z-index: 3;
         }
@@ -111,7 +111,7 @@
             position: fixed;
             display: block;
             cursor: pointer;
-            background-color: #fee140;
+            background-color: #6D597A;
         }
     }
 </style>

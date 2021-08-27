@@ -10,9 +10,9 @@
             <figure>
                 <img src="{Coding}" alt="Desk with a computer">
             </figure>
-            <p>Hello everyone, my name is Daniel, I'm a software developer located in <i>Mexico</i>, I'm passionate about the world of technology, especially <b><i>artificial intelligence and data science.</i></b><br>
-            I'm currently working as a backend developer and I'm researching on <i><b>Machine Learning</b></i>, I collaborate in both local and national software communities. My dream is to be a ML engineer.
-            <b><i>I'll soon study data science at <a href="https://www.escom.ipn.mx/" target="_blank" rel="noopener noreferrer">ESCOM-IPN</a></i></b></p>
+            <p>Hello everyone, my name is Daniel, I'm a software developer located in <i>Mexico</i> and future data science student at <a href="https://www.escom.ipn.mx/" target="_blank" rel="noopener noreferrer"><b>ESCOM-IPN</b></a>, I'm passionate about the world of technology, especially <i>artificial intelligence and data science.</i><br>
+            I'm currently working as a backend developer and I'm researching on <i>Machine Learning</i>, I collaborate in both local and national software communities. My dream is to be a ML engineer.
+            </p>
         </section>
     </Reveal>
 </section>
@@ -21,8 +21,9 @@
     #about{
         width: 100%;
         font-family: 'Ubuntu', sans-serif;
-        background-color: #fcc554;
+        background-color: #007696;
         padding: 3rem 0;
+        color: #efefef;
     }
     h2{
         padding: 2rem 0 3rem 0;
@@ -54,7 +55,7 @@
         line-height: 1.4;
     }
     a{
-        color: #612727;
+        color: #efefef;
     }
     @media (max-width: 860px) {
         .descrip {

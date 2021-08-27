@@ -55,9 +55,10 @@
 <style>
     .social-media {
         width: 100%;
-        background-color: #fcc554;
+        background-color: #034658;
         font-family: 'Ubuntu', sans-serif;
         padding: 3rem 0;
+        color: #efefef;
     }
     h2 {
         padding-top: 2rem;
@@ -84,7 +85,7 @@
     .social-link a {
         font-size: 2rem;
         text-decoration: none;
-        color: #000;
+        color: #efefef;
     }
     .social-link h4 {
         text-align: center;

@@ -37,7 +37,7 @@
         position: absolute;
         width: 30rem;
         height: 30rem;
-        background-color: #67001E;
+        background-color: #E56B6F;
         top: -3rem;
         left: -3rem;
         z-index: -1;
@@ -48,7 +48,7 @@
         position: absolute;
         width: 30rem;
         height: 30rem;
-        background-color: #007662;
+        background-color: #80698f;
         z-index: -1;
         bottom: -3rem;
         right: -3rem;

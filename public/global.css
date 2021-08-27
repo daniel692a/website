@@ -8,12 +8,12 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	background: linear-gradient(to top, #dd6589 0%, #f88b7d 60%, #fee140 100%) no-repeat fixed;
+	background-color: #355070;
 }
 html::-webkit-scrollbar {
-	background-color: #f88b7d;
+	background-color: #2a3e57;
 }
 html::-webkit-scrollbar-thumb {
-	background-color: #67001E;
+	background-color: #537297;
 	border-radius: 1rem;
 }
