@@ -18,7 +18,7 @@
             </a>
         </section>
         <section class="social-link">
-            <a href="https://www.linkedin.com/in/daniel-armas-443994190/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/daniel692a/" target="_blank" rel="noopener noreferrer">
                 <figure>
                     <img src="{LinkedIn}" alt="LinkedIn icon">
                 </figure>
