@@ -41,7 +41,7 @@
 
 <style>
     .skillset {
-        background-color: #02637e;
+        background-color: rgb(14, 45, 78);
         font-family: 'Ubuntu', sans-serif;
         padding: 3rem 0;
         width: 100%;
@@ -51,7 +51,7 @@
         padding-top: 2rem;
         text-align: center;
         font-size: 4.5rem;
-        color: #F7F5DD;
+        color: #efefef;
     }
     .tools {
         padding: 3rem 0;
@@ -59,7 +59,7 @@
     .tools h3 {
         font-size: 2rem;
         margin: 3rem 0 2rem 5rem;
-        color: #F7F5DD;
+        color: #efefef;
     }
     .tools ul {
         list-style: none;

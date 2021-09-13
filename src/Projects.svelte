@@ -45,7 +45,7 @@
 
 <style>
     #projects {
-        background-color: #015066;
+        background-color: #133b5c;
         width: 100%;
         font-family: 'Ubuntu', sans-serif;
     }

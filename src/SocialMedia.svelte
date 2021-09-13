@@ -55,7 +55,7 @@
 <style>
     .social-media {
         width: 100%;
-        background-color: #034658;
+        background-color: #0e2d4e;
         font-family: 'Ubuntu', sans-serif;
         padding: 3rem 0;
         color: #efefef;

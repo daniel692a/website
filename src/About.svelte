@@ -21,7 +21,7 @@
     #about{
         width: 100%;
         font-family: 'Ubuntu', sans-serif;
-        background-color: #007696;
+        background-color: #133B5C;
         padding: 3rem 0;
         color: #efefef;
     }

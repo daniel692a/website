@@ -100,7 +100,7 @@
             flex-direction: column;
             width: 100%;
             transition: 0.3s;
-            background-color: #6D597A;
+            background-color: #1d2d50;
             margin: 3.5rem 0 0 0;
             z-index: 3;
         }
@@ -111,7 +111,7 @@
             position: fixed;
             display: block;
             cursor: pointer;
-            background-color: #6D597A;
+            background-color: #1d2d50;
         }
     }
 </style>
