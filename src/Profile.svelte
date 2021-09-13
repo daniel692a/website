@@ -8,7 +8,7 @@
     </figure>
     <section class="intro">
         <h2>Daniel Armas Ramírez</h2>
-        <h4>Backend Developer and ML enthusiast.</h4>
+        <h4>Software Developer and ML enthusiast.</h4>
     </section>
 </section>
 
@@ -80,7 +80,7 @@
         font-family: monospace;
         overflow: hidden;
         padding-top: 1rem;
-        animation: typing 2s steps(35, end) , blink-caret .4s step-end infinite;
+        animation: typing 2s steps(37, end) , blink-caret .4s step-end infinite;
         animation-delay: 2s;
     }
     @keyframes typing{
