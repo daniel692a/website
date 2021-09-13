@@ -14,7 +14,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #fcc554;
+        background-color: #0e2d4e;
+        color: #efefef;
     }
     h4{
         text-align: center;
