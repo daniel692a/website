@@ -6,7 +6,7 @@ ghpages.publish(
         branch: 'gh-pages',
         repo: 'https://github.com/daniel692a/website.git',
         user: {
-            name: 'Daniel Armas Ramírez', // update to use your name
+            name: 'daniel692a', // update to use your name
             email: 'daniel62armas@gmail.com' // Update to use your email
         }
     },
