@@ -10,7 +10,7 @@
             <figure>
                 <img src="{Coding}" alt="Desk with a computer">
             </figure>
-            <p>Hello everyone, my name is Daniel, I'm a software developer located in <i>Mexico</i> and future data science student at <a href="https://www.escom.ipn.mx/" target="_blank" rel="noopener noreferrer"><b>ESCOM-IPN</b></a>, I'm passionate about the world of technology, especially <i>artificial intelligence and data science.</i><br>
+            <p>Hello everyone, my name is Daniel, I'm a software developer located in <i>Mexico</i>, <a href='https://studentambassadors.microsoft.com/en-US/profile/160259' target="_blank" rel="noopener noreferrer">Microsoft Learn Student Ambassador</a> and future data science student at <a href="https://www.escom.ipn.mx/" target="_blank" rel="noopener noreferrer"><b>ESCOM-IPN</b></a>, I'm passionate about the world of technology, especially <i>artificial intelligence and data science.</i><br>
             I'm currently working as a Frontend developer and I'm researching on <i>Machine Learning</i>, I collaborate in both local and national software communities. My dream is to be a ML engineer.
             </p>
         </section>
