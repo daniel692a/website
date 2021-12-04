@@ -8,7 +8,7 @@
     </figure>
     <section class="intro">
         <h2>Daniel Armas Ramírez</h2>
-        <h4>Backend Developer and ML enthusiast.</h4>
+        <h4>Software Developer and ML enthusiast.</h4>
     </section>
 </section>
 
@@ -37,7 +37,7 @@
         position: absolute;
         width: 30rem;
         height: 30rem;
-        background-color: #67001E;
+        background-color: #D4A418;
         top: -3rem;
         left: -3rem;
         z-index: -1;
@@ -48,7 +48,7 @@
         position: absolute;
         width: 30rem;
         height: 30rem;
-        background-color: #007662;
+        background-color: #867555;
         z-index: -1;
         bottom: -3rem;
         right: -3rem;
@@ -80,7 +80,7 @@
         font-family: monospace;
         overflow: hidden;
         padding-top: 1rem;
-        animation: typing 2s steps(35, end) , blink-caret .4s step-end infinite;
+        animation: typing 2s steps(37, end) , blink-caret .4s step-end infinite;
         animation-delay: 2s;
     }
     @keyframes typing{

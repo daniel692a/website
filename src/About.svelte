@@ -10,8 +10,9 @@
             <figure>
                 <img src="{Coding}" alt="Desk with a computer">
             </figure>
-            <p>Hello everyone, my name is Daniel, I'm a developer located in <i>Mexico</i>, I'm passionate about the world of technology, especially <b><i>artificial intelligence and data science.</i></b><br>
-            I'm currently working as a backend developer and I'm researching on <i><b>Machine Learning</b></i>, I collaborate in both local and national software communities. My dream is to be a ML engineer.</p>
+            <p>Hello everyone, my name is Daniel, I'm a software developer located in <i>Mexico</i>, <a href='https://studentambassadors.microsoft.com/en-US/profile/160259' target="_blank" rel="noopener noreferrer">Microsoft Learn Student Ambassador</a> and future data science student at <a href="https://www.escom.ipn.mx/" target="_blank" rel="noopener noreferrer"><b>ESCOM-IPN</b></a>, I'm passionate about the world of technology, especially <i>artificial intelligence and data science.</i><br>
+            I'm currently working as a Frontend developer and I'm researching on <i>Machine Learning</i>, I collaborate in both local and national software communities. My dream is to be a ML engineer.
+            </p>
         </section>
     </Reveal>
 </section>
@@ -20,8 +21,9 @@
     #about{
         width: 100%;
         font-family: 'Ubuntu', sans-serif;
-        background-color: #fcc554;
+        background-color: #133B5C;
         padding: 3rem 0;
+        color: #efefef;
     }
     h2{
         padding: 2rem 0 3rem 0;
@@ -51,6 +53,9 @@
         font-weight: 560;
         text-align: justify;
         line-height: 1.4;
+    }
+    a{
+        color: #efefef;
     }
     @media (max-width: 860px) {
         .descrip {

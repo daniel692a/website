@@ -6,6 +6,10 @@
     import Svelte from './assets/svelte.svg';
     import React from './assets/react.svg';
     import Flask from './assets/flask.svg';
+    import TensorFlow from './assets/tensorflow.svg';
+    import Pandas from './assets/pandas.svg';
+    import NumPy from './assets/numpy.svg';
+    import ScikitLearn from './assets/scikitlearn.svg';
 </script>
 
 <section class="skillset">
@@ -27,12 +31,17 @@
         <ul>
             <li><img src="{Flask}" alt="Flask icon"><span>Flask</span></li>
         </ul>
+        <h3>ML Tools:</h3>
+        <ul>
+            <li><img src="{TensorFlow}" alt="TensorFlow icon"><span>TensorFlow</span></li>
+            <li><img src="{NumPy}" alt="NumPy icon"><span>NumPy</span></li>
+        </ul>
     </section>
 </section>
 
 <style>
     .skillset {
-        background-color: #00C89D;
+        background-color: rgb(14, 45, 78);
         font-family: 'Ubuntu', sans-serif;
         padding: 3rem 0;
         width: 100%;
@@ -42,6 +51,7 @@
         padding-top: 2rem;
         text-align: center;
         font-size: 4.5rem;
+        color: #efefef;
     }
     .tools {
         padding: 3rem 0;
@@ -49,6 +59,7 @@
     .tools h3 {
         font-size: 2rem;
         margin: 3rem 0 2rem 5rem;
+        color: #efefef;
     }
     .tools ul {
         list-style: none;

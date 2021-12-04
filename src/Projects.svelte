@@ -12,22 +12,28 @@
         <section class="container-projects">
             <section class="cards">
                 <section class="card">
-                    <figure>
-                        <img src="{Weather}" alt="Weather thumbnail project">
-                    </figure>
-                    <h5>Weather App</h5>
+                    <a href="https://daniel692a.github.io/weather-app/" target="_blank" rel="noopener noreferrer">
+                        <figure>
+                            <img src="{Weather}" alt="Weather thumbnail project">
+                        </figure>
+                        <h5>Weather App</h5>
+                    </a>
                 </section>
                 <section class="card">
-                    <figure>
-                        <img src="{Aguacatitos}" alt="Aguacatitos thumbnail project">
-                    </figure>
-                    <h5>Avocados</h5>
+                    <a href="https://daniel692a.github.io/workshop1-DOM/" target="_blank" rel="noopener noreferrer">
+                        <figure>
+                            <img src="{Aguacatitos}" alt="Aguacatitos thumbnail project">
+                        </figure>
+                        <h5>Avocados</h5>
+                    </a>
                 </section>
                 <section class="card">
-                    <figure>
-                        <img src="{Foxes}" alt="Foxes thumbnail project">
-                    </figure>
-                    <h5>Random Foxes images</h5>
+                    <a href="https://daniel692a.github.io/lazy-loading/" target="_blank" rel="noopener noreferrer">
+                        <figure>
+                            <img src="{Foxes}" alt="Foxes thumbnail project">
+                        </figure>
+                        <h5>Random Foxes images</h5>
+                    </a>
                 </section>
             </section>
             <figure class="code-pic">
@@ -39,7 +45,7 @@
 
 <style>
     #projects {
-        background-color: #00B1AC;
+        background-color: #133b5c;
         width: 100%;
         font-family: 'Ubuntu', sans-serif;
     }
@@ -47,6 +53,7 @@
         text-align: center;
         font-size: 4.5rem;
         padding-top: 5rem;
+        color: #efefef;
     }
     .container-projects {
         margin-top: 3rem;
@@ -71,10 +78,9 @@
     }
     .card {
         width: 20rem;
-        background-color: #334B4A;
+        background-color: #007696;
         border-radius: 1rem;
         overflow: hidden;
-        color: #F7F5DD;
         cursor: pointer;
         transition: all 0.3s ease-in;
         margin: 1rem 0;
@@ -89,6 +95,10 @@
         font-size: 2rem;
         text-align: center;
         padding: 2rem 1rem;
+    }
+    .card a{
+        text-decoration: none;
+        color: #F7F5DD;
     }
     .card:hover{
         background-color: #BB006A;
