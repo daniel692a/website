@@ -1,10 +1,12 @@
 <script>
     import Reveal from 'svelte-c-reveal';
     import Coding from './assets/cod.png';
+    import Subtitle from './components/Subtitle.svelte';
 </script>
 
 <section id="about">
     <h2>About</h2>
+    <Subtitle subtitle='About' />
     <Reveal duration="1" reveal="fadeInLeft">
         <section class="descrip">
             <figure>

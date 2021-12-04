@@ -35,6 +35,8 @@
         <ul>
             <li><img src="{TensorFlow}" alt="TensorFlow icon"><span>TensorFlow</span></li>
             <li><img src="{NumPy}" alt="NumPy icon"><span>NumPy</span></li>
+            <li><img src="{ScikitLearn}" alt="ScikitLearn icon">ScikitLearn</li>
+            <li><img src="{Pandas}" alt="Pandas icon"><span>Pandas</span></li>
         </ul>
     </section>
 </section>
