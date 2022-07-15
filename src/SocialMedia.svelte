@@ -7,7 +7,7 @@
 </script>
 
 <section class="social-media" id="contact">
-    <h2>Social Media</h2>
+    <h2>Contact with me😄</h2>
     <section class="social-container">
         <section class="social-link">
             <a href="https://github.com/daniel692a" target="_blank" rel="noopener noreferrer">

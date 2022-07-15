@@ -5,15 +5,14 @@
 </script>
 
 <section id="about">
-    <h2>About</h2>
     <Subtitle subtitle='About' />
     <Reveal duration="1" reveal="fadeInLeft">
         <section class="descrip">
             <figure>
                 <img src="{Coding}" alt="Desk with a computer">
             </figure>
-            <p>Hello everyone, my name is Daniel, I'm a software developer located in <i>Mexico</i>, <a href='https://studentambassadors.microsoft.com/en-US/profile/160259' target="_blank" rel="noopener noreferrer">Microsoft Learn Student Ambassador</a> and future data science student at <a href="https://www.escom.ipn.mx/" target="_blank" rel="noopener noreferrer"><b>ESCOM-IPN</b></a>, I'm passionate about the world of technology, especially <i>artificial intelligence and data science.</i><br>
-            I'm currently working as a Frontend developer and I'm researching on <i>Machine Learning</i>, I collaborate in both local and national software communities. My dream is to be a ML engineer.
+            <p>Hello everyone, my name is Daniel, I'm a software developer located in <i>Mexico</i>, <a href='https://studentambassadors.microsoft.com/en-US/profile/160259' target="_blank" rel="noopener noreferrer">Microsoft Learn Student Ambassador</a> and Data science student at <a href="https://www.escom.ipn.mx/" target="_blank" rel="noopener noreferrer">ESCOM-IPN</a>, I'm passionate about the world of computer science, especially <i>data science and competitive programming.</i><br>
+            I'm currently working as a Frontend developer and I'm researching about <i>Algorithms and Data Structures</i>, I collaborate in both local and national software communities. My dream is to be a Machine Learning engineer.
             </p>
         </section>
     </Reveal>

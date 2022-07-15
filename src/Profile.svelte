@@ -1,5 +1,5 @@
 <script>
-    import profile from './assets/profilepic.jpg';
+    import profile from './assets/profile.jpg';
 </script>
 
 <section class='presentation'>
@@ -8,7 +8,8 @@
     </figure>
     <section class="intro">
         <h2>Daniel Armas Ramírez</h2>
-        <h4>Software Developer and ML enthusiast.</h4>
+        <h4>Computer Science</h4>
+        <h4>Competitive Programming</h4>
     </section>
 </section>
 

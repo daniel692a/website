@@ -113,5 +113,8 @@
             cursor: pointer;
             background-color: #1d2d50;
         }
+        .bar{
+            margin: 5px 40px;
+        }
     }
 </style>

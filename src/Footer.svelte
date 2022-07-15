@@ -3,7 +3,7 @@
 </script>
 
 <footer>
-    <h4>Made with ♥ by Daniel Armas</h4>
+    <h4>Made with 💖 by Daniel Armas</h4>
 </footer>
 
 <style>

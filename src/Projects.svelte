@@ -3,7 +3,29 @@
     import Coding from './assets/coding.svg';
     import Aguacatitos from './assets/agucatitos.png';
     import Foxes from './assets/foxes.png';
-    import Weather from './assets/weather.png'
+    import Weather from './assets/weather.png';
+    import Project from './components/Project.svelte';
+
+    const projects = [
+        {
+            name: 'Avocados',
+            url: 'https://daniel692a.github.io/workshop1-DOM/',
+            thumbnail: Aguacatitos,
+            altThumbnail: 'Aguacatitos thumbnail project',
+        },
+        {
+            name: 'Random Foxes images',
+            url: 'https://daniel692a.github.io/lazy-loading/',
+            thumbnail: Foxes,
+            altThumbnail: 'Foxes thumbnail project',
+        },
+        {
+            name: 'Weather App',
+            url: 'https://daniel692a.github.io/weather-app/',
+            thumbnail: Weather,
+            altThumbnail: 'Weather thumbnail project',
+        },
+    ];
 </script>
 
 <section id='projects'>
@@ -11,30 +33,7 @@
     <Reveal reveal='fadeInRight' duration='1'>
         <section class="container-projects">
             <section class="cards">
-                <section class="card">
-                    <a href="https://daniel692a.github.io/weather-app/" target="_blank" rel="noopener noreferrer">
-                        <figure>
-                            <img src="{Weather}" alt="Weather thumbnail project">
-                        </figure>
-                        <h5>Weather App</h5>
-                    </a>
-                </section>
-                <section class="card">
-                    <a href="https://daniel692a.github.io/workshop1-DOM/" target="_blank" rel="noopener noreferrer">
-                        <figure>
-                            <img src="{Aguacatitos}" alt="Aguacatitos thumbnail project">
-                        </figure>
-                        <h5>Avocados</h5>
-                    </a>
-                </section>
-                <section class="card">
-                    <a href="https://daniel692a.github.io/lazy-loading/" target="_blank" rel="noopener noreferrer">
-                        <figure>
-                            <img src="{Foxes}" alt="Foxes thumbnail project">
-                        </figure>
-                        <h5>Random Foxes images</h5>
-                    </a>
-                </section>
+                <Project name={projects[0].name} url = {projects[0].url} thumbnail={Aguacatitos} />
             </section>
             <figure class="code-pic">
                 <img src="{Coding}" alt="Boy showing code">
@@ -75,33 +74,6 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         height: auto;
-    }
-    .card {
-        width: 20rem;
-        background-color: #007696;
-        border-radius: 1rem;
-        overflow: hidden;
-        cursor: pointer;
-        transition: all 0.3s ease-in;
-        margin: 1rem 0;
-    }
-    .card figure {
-        width: 100%;
-    }
-    .card figure img{
-        width: 100%;
-    }
-    .card h5{
-        font-size: 2rem;
-        text-align: center;
-        padding: 2rem 1rem;
-    }
-    .card a{
-        text-decoration: none;
-        color: #F7F5DD;
-    }
-    .card:hover{
-        background-color: #BB006A;
     }
     @media (max-width: 950px){
         .code-pic {
