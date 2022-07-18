@@ -123,8 +123,8 @@
     }
     @media (max-width: 480px){
         figure {
-            width: 20rem;
-            height: 20rem;
+            width: 25rem;
+            height: 25rem;
         }
         figure::before {
             width: 20rem;

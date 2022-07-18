@@ -728,19 +728,19 @@ var app = (function () {
     			h41.textContent = "Data Science";
     			if (!src_url_equal(img.src, img_src_value = ProfilePicture)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Daniel's picture");
-    			attr_dev(img, "class", "svelte-kn92uy");
+    			attr_dev(img, "class", "svelte-1yr7vvo");
     			add_location(img, file$9, 6, 8, 127);
-    			attr_dev(figure, "class", "svelte-kn92uy");
+    			attr_dev(figure, "class", "svelte-1yr7vvo");
     			add_location(figure, file$9, 5, 4, 110);
-    			attr_dev(h2, "class", "svelte-kn92uy");
+    			attr_dev(h2, "class", "svelte-1yr7vvo");
     			add_location(h2, file$9, 9, 8, 229);
-    			attr_dev(h40, "class", "svelte-kn92uy");
+    			attr_dev(h40, "class", "svelte-1yr7vvo");
     			add_location(h40, file$9, 10, 8, 267);
-    			attr_dev(h41, "class", "svelte-kn92uy");
+    			attr_dev(h41, "class", "svelte-1yr7vvo");
     			add_location(h41, file$9, 11, 8, 301);
-    			attr_dev(section0, "class", "intro svelte-kn92uy");
+    			attr_dev(section0, "class", "intro svelte-1yr7vvo");
     			add_location(section0, file$9, 8, 4, 197);
-    			attr_dev(section1, "class", "presentation svelte-kn92uy");
+    			attr_dev(section1, "class", "presentation svelte-1yr7vvo");
     			add_location(section1, file$9, 4, 0, 75);
     		},
     		l: function claim(nodes) {
