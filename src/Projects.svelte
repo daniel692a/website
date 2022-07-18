@@ -1,10 +1,15 @@
 <script>
+    import Subtitle from './components/Subtitle.svelte';
+    import Project from './components/Project.svelte';
+
     import Reveal from 'svelte-c-reveal';
     import Coding from './assets/coding.svg';
     import Aguacatitos from './assets/agucatitos.png';
     import Foxes from './assets/foxes.png';
     import Weather from './assets/weather.png';
-    import Project from './components/Project.svelte';
+    import DrMock from './assets/drmock.png';
+    import FunctionalProgramming from './assets/fpl.png';
+    import WordCloud from './assets/wordcloud.png';
 
     const projects = [
         {
@@ -25,15 +30,40 @@
             thumbnail: Weather,
             altThumbnail: 'Weather thumbnail project',
         },
+        {
+            name: 'Dr. Mock Interview',
+            url: 'https://daniel692a.github.io/RoboHacksdemo/',
+            thumbnail: DrMock,
+            altThumbnail: 'Dr. Mock thumbnail project',
+        },
+        {
+            name: 'Programación Funcional',
+            url: 'https://mlsa-latam.github.io/programacion-funcional/',
+            thumbnail: FunctionalProgramming,
+            altThumbnail: 'Programación Funcional thumbnail project',
+        },
+        {
+            name:'Summarize Cloud',
+            url: 'https://share.streamlit.io/daniel692a/shentiment/main/main.py',
+            thumbnail: WordCloud,
+            altThumbnail: 'Summarize Cloud thumbnail project',
+        }
     ];
 </script>
 
 <section id='projects'>
-    <h2>Projects</h2>
+    <Subtitle content="Projects" />
     <Reveal reveal='fadeInRight' duration='1'>
         <section class="container-projects">
             <section class="cards">
-                <Project name={projects[0].name} url = {projects[0].url} thumbnail={Aguacatitos} />
+                {#each projects as project}
+                    <Project
+                        name={project.name}
+                        url={project.url}
+                        thumbnail={project.thumbnail}
+                        altThumbnail={project.altThumbnail}
+                    />
+                {/each}
             </section>
             <figure class="code-pic">
                 <img src="{Coding}" alt="Boy showing code">
@@ -44,15 +74,10 @@
 
 <style>
     #projects {
+        padding: 3rem 0;
         background-color: #133b5c;
         width: 100%;
         font-family: 'Ubuntu', sans-serif;
-    }
-    #projects h2 {
-        text-align: center;
-        font-size: 4.5rem;
-        padding-top: 5rem;
-        color: #efefef;
     }
     .container-projects {
         margin-top: 3rem;

@@ -5,7 +5,7 @@
 </script>
 
 <section id="about">
-    <Subtitle subtitle='About' />
+    <Subtitle content='About' />
     <Reveal duration="1" reveal="fadeInLeft">
         <section class="descrip">
             <figure>
@@ -26,11 +26,6 @@
         padding: 3rem 0;
         color: #efefef;
     }
-    h2{
-        padding: 2rem 0 3rem 0;
-        font-size: 4.5rem;
-        text-align: center;
-    }
     .descrip {
         display: flex;
         justify-content: space-around;
@@ -39,8 +34,8 @@
         flex-wrap: wrap;
     }
     .descrip figure {
-        width: 50rem;
-        height: 50rem;
+        width: 45rem;
+        height: 45rem;
         border-radius: 1rem;
         overflow: hidden;
     }
@@ -49,8 +44,8 @@
         height: 100%;
     }
     p {
-        font-size: 1.8rem;
-        width: 30%;
+        font-size: 1.9rem;
+        width: 40%;
         font-weight: 560;
         text-align: justify;
         line-height: 1.4;

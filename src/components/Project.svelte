@@ -1,5 +1,5 @@
 <script>
-    let name, url, thumbnail, altThumbnail;
+    export let name, url, thumbnail, altThumbnail;
 </script>
 
 <section class="card">

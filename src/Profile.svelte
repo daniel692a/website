@@ -1,15 +1,15 @@
 <script>
-    import profile from './assets/profile.jpg';
+    import ProfilePicture from './assets/profile.jpg';
 </script>
 
 <section class='presentation'>
     <figure>
-        <img src="{profile}" alt="Daniel's picture">
+        <img src="{ProfilePicture}" alt="Daniel's picture"/>
     </figure>
     <section class="intro">
         <h2>Daniel Armas Ramírez</h2>
         <h4>Computer Science</h4>
-        <h4>Competitive Programming</h4>
+        <h4>Data Science</h4>
     </section>
 </section>
 
@@ -22,15 +22,15 @@
         height: 90vh;
     }
     figure{
-        width: 30rem;
-        height: 30rem;
+        width: 38rem;
+        height: 38rem;
         margin-right: 1.5rem;
         position: relative;
     }
     figure img{
         width: 100%;
         height: 100%;
-        border-radius: 1rem;
+        border-radius: 1.3rem;
         border: 5px solid #F7F5DD;
     }
     figure::before {
@@ -56,7 +56,7 @@
         border-radius: 1rem;
     }
     .intro {
-        background-color: rgb(30, 30, 30);
+        background-color: rgb(20, 20, 20);
         width: 48rem;
         color: #fff;
         font-family: 'Ubuntu', sans-serif;

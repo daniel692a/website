@@ -1,4 +1,5 @@
 <script>
+    import Subtitle from './components/Subtitle.svelte';
     import GitHub from './assets/github.svg';
     import LinkedIn from './assets/linkedin.svg';
     import Twitter from './assets/twitter.svg';
@@ -7,7 +8,7 @@
 </script>
 
 <section class="social-media" id="contact">
-    <h2>Contact with me😄</h2>
+    <Subtitle content="Contact with me😃" />
     <section class="social-container">
         <section class="social-link">
             <a href="https://github.com/daniel692a" target="_blank" rel="noopener noreferrer">
