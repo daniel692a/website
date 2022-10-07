@@ -8,7 +8,10 @@
 </script>
 
 <section class="social-media" id="contact">
-    <Subtitle content="Contact with me😃" />
+    <Subtitle content="Contact with me" />
+    <figure>
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Beaming%20Face%20with%20Smiling%20Eyes.png" alt="Beaming Face with Smiling Eyes" width="100" height="100" />
+    </figure>
     <section class="social-container">
         <section class="social-link">
             <a href="https://github.com/daniel692a" target="_blank" rel="noopener noreferrer">
@@ -56,15 +59,14 @@
 <style>
     .social-media {
         width: 100%;
-        background-color: #0e2d4e;
+        background-color: #222222;
         font-family: 'Ubuntu', sans-serif;
         padding: 3rem 0;
         color: #efefef;
     }
-    h2 {
-        padding-top: 2rem;
-        font-size: 4.5rem;
-        text-align: center;
+    figure{
+        display: flex;
+        justify-content: center;
     }
     .social-container {
         display: flex;

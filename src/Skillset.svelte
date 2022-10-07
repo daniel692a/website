@@ -13,7 +13,7 @@
 </script>
 
 <section class="skillset">
-    <h2>Skillset</h2>
+    <h2>Skillset <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Cat%20Face.png" alt="Cat Face" width="50" height="50" /></h2>
     <section class="tools">
         <h3>Programming Languages:</h3>
         <ul>
@@ -43,7 +43,8 @@
 
 <style>
     .skillset {
-        background-color: rgb(14, 45, 78);
+        background: rgb(33,0,100);
+        background: linear-gradient(180deg, rgba(33,0,100,1) 0%, rgba(56,13,87,1) 60%, rgba(56,13,87,1) 100%);
         font-family: 'Ubuntu', sans-serif;
         padding: 3rem 0;
         width: 100%;

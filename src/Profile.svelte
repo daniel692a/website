@@ -4,7 +4,7 @@
 
 <section class='presentation'>
     <figure>
-        <img src="{ProfilePicture}" alt="Daniel's picture"/>
+        <img src={ProfilePicture} alt="Daniel's picture"/>
     </figure>
     <section class="intro">
         <h2>Daniel Armas Ramírez</h2>
@@ -31,14 +31,16 @@
         width: 100%;
         height: 100%;
         border-radius: 1.3rem;
-        border: 5px solid #F7F5DD;
+        border: 3px solid #F7F5DD;
     }
     figure::before {
         content: "";
         position: absolute;
         width: 30rem;
         height: 30rem;
-        background-color: #D4A418;
+        background-color: #FFE53B;
+        background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
         top: -3rem;
         left: -3rem;
         z-index: -1;
@@ -49,7 +51,8 @@
         position: absolute;
         width: 30rem;
         height: 30rem;
-        background-color: #867555;
+        background-color: #21D4FD;
+        background-image: linear-gradient(45deg, #21D4FD 0%, #B721FF 100%);
         z-index: -1;
         bottom: -3rem;
         right: -3rem;
@@ -65,24 +68,30 @@
         border-radius: 0.4rem;
     }
     h2{
-        font-size: 3rem;
+        font-size: 3.2rem;
         overflow: hidden;
         letter-spacing: 0.3rem;
         white-space: nowrap;
         animation: typing 1.5s steps(20, end), blink-caret .6s step-end infinite;
+        background: -webkit-linear-gradient(62deg, #FBAB7E, #F7CE68);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     h2::before{
         content: '>_';
         margin-right: 1rem;
     }
     h4{
-        font-size: 2rem;
+        font-size: 2.5rem;
         white-space: nowrap;
         font-family: monospace;
         overflow: hidden;
         padding-top: 1rem;
         animation: typing 2s steps(37, end) , blink-caret .4s step-end infinite;
         animation-delay: 2s;
+        background: -webkit-linear-gradient(45deg, #FF5ACD, #FBDA61);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     @keyframes typing{
         from { width: 0}

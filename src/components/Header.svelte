@@ -100,7 +100,7 @@
             flex-direction: column;
             width: 100%;
             transition: 0.3s;
-            background-color: #1d2d50;
+            background-color: #222222;
             margin: 3.5rem 0 0 0;
             z-index: 3;
         }
@@ -111,7 +111,7 @@
             position: fixed;
             display: block;
             cursor: pointer;
-            background-color: #1d2d50;
+            background-color: #222222;
         }
         .bar{
             margin: 5px 40px;

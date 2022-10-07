@@ -3,7 +3,7 @@
 </script>
 
 <footer>
-    <h4>Made with 💖 by Daniel Armas</h4>
+    <h4>Made with <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Beating%20Heart.png" alt="Beating Heart" width="40" height="40" /> by @daniel692a</h4>
 </footer>
 
 <style>
@@ -14,7 +14,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #0e2d4e;
+        background-color: #222222;
         color: #efefef;
     }
     h4{

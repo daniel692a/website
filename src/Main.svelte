@@ -4,6 +4,7 @@
     import Skillset from './Skillset.svelte';
     import Projects from './Projects.svelte';
     import SocialMedia from './SocialMedia.svelte';
+    import Gallery from './Gallery.svelte';
 </script>
 
 <main>
@@ -11,6 +12,7 @@
     <About />
     <Skillset />
     <Projects />
+    <Gallery />
     <SocialMedia />
 </main>
 
