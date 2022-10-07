@@ -19,16 +19,16 @@
 
 </script>
 
-<h1 class="title-1">Making an</h1>
-<h1 class="title-2">Impact with technology</h1>
 <section>
     <figure use:reveal={{ transition:"slide" }}>
         <img src={PLATZI_1} alt="Platzi event with my firends">
     </figure>
     <figure use:reveal={{ transition:"fly" }}>
+        <h1>Making</h1>
         <img src={ESCOM_1} alt="Platzi event with my firends">
     </figure>
     <figure use:reveal={{ transition:"slide" }}>
+        <h1>an</h1>
         <img src={PLATZI_2} alt="Platzi event with my firends">
     </figure>
     <figure use:reveal={{ transition:"fly" }}>
@@ -38,9 +38,11 @@
         <img src={PLATZI} alt="Platzi event with my firends">
     </figure>
     <figure use:reveal={{ transition:"slide" }}>
+        <h1>Impact</h1>
         <img src={MLSA} alt="Platzi event with my firends">
     </figure>
     <figure use:reveal={{ transition:"fly" }}>
+        <h1>with</h1>
         <img src={STEM} alt="Platzi event with my firends">
     </figure>
     <figure use:reveal={{ transition:"slide" }}>
@@ -50,6 +52,7 @@
         <img src={ESCOM_3} alt="Platzi event with my firends">
     </figure>
     <figure use:reveal={{ transition:"fly" }}>
+        <h1>technology</h1>
         <img src={MLSA_1} alt="Platzi event with my firends">
     </figure>
     <figure use:reveal={{ transition:"slide" }}>
@@ -67,7 +70,16 @@
 </section>
 
 <style>
+    h1{
+        font-size: 4rem;
+        text-align: center;
+        background: -webkit-linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Ubuntu', sans-serif;
+    }
     section{
+        margin-top: 10vh;
         width: 100%;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -106,5 +118,27 @@
     section figure:nth-child(6), section figure:nth-child(7){
         grid-column: span 3;
         grid-row: span 2;
+    }
+    section figure:nth-child(11) img{
+        object-position: bottom;
+    }
+    section figure:nth-child(4) img{
+        object-position: top;
+    }
+    section figure:nth-child(6) img{
+        object-position: left;
+    }
+    section figure:nth-child(7) img{
+        object-position: bottom;
+    }
+    @media (max-width: 950px){
+        section {
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-auto-rows: 230px;
+        }
+        section figure:nth-child(1), section figure:nth-child(2), section figure:nth-child(3), section figure:nth-child(4), section figure:nth-child(6), section figure:nth-child(7), section figure:nth-child(10), section figure:nth-child(11){
+            grid-column: unset;
+            grid-row: unset;
+        }
     }
 </style>

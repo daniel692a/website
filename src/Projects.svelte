@@ -76,7 +76,7 @@
     #projects {
         padding: 3rem 0;
         background: rgb(52,11,89);
-        background: linear-gradient(180deg, rgba(52,11,89,1) 0%, rgba(34,34,34,1) 100%);
+        background: linear-gradient(180deg, rgba(52,11,89,1) 0%, rgba(52,11,89,1) 60%, rgba(34,34,34,1) 100%);
         width: 100%;
         font-family: 'Ubuntu', sans-serif;
     }

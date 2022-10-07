@@ -23,7 +23,7 @@
         width: 100%;
         font-family: 'Ubuntu', sans-serif;
         background: rgb(34,34,34);
-        background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(33,0,100,1) 100%);
+        background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(34,34,34,1) 60%, #210064 100%);
         padding: 3rem 0;
         color: #efefef;
     }
