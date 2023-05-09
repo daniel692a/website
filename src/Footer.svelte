@@ -3,7 +3,7 @@
 </script>
 
 <footer>
-    <h4>Made with <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Beating%20Heart.png" alt="Beating Heart" width="40" height="40" /> by @daniel692a</h4>
+    <h4>Made with <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Beating%20Heart.png" alt="Beating Heart" width="40" height="40" /> by @darmasrmz</h4>
 </footer>
 
 <style>

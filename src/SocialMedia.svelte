@@ -22,19 +22,11 @@
             </a>
         </section>
         <section class="social-link">
-            <a href="https://www.linkedin.com/in/daniel692a/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/danielarmasrmz/" target="_blank" rel="noopener noreferrer">
                 <figure>
                     <img src="{LinkedIn}" alt="LinkedIn icon">
                 </figure>
                 <h4>LinkedIn</h4>
-            </a>
-        </section>
-        <section class="social-link">
-            <a href="https://twitter.com/daniel692a" target="_blank" rel="noopener noreferrer">
-                <figure>
-                    <img src="{Twitter}" alt="Twitter icon">
-                </figure>
-                <h4>Twitter</h4>
             </a>
         </section>
         <section class="social-link">

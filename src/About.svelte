@@ -11,8 +11,8 @@
             <figure>
                 <img src="{Coding}" alt="Desk with a computer">
             </figure>
-            <p>Hello everyone, my name is Daniel, I'm a software developer located in <i>Mexico</i>, <a href='https://studentambassadors.microsoft.com/en-US/profile/160259' target="_blank" rel="noopener noreferrer">Microsoft Learn Student Ambassador</a> and Data science student at <a href="https://www.escom.ipn.mx/" target="_blank" rel="noopener noreferrer">ESCOM-IPN</a>, I'm passionate about the world of computer science, especially <i>data science and competitive programming.</i><br>
-            I'm currently working as a Frontend developer and I'm researching about <i>Algorithms and Data Structures</i>, I collaborate in both local and national software communities. My dream is to be a Machine Learning engineer.<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Eyes.png" alt="Eyes" width="25" height="25" />
+            <p>Incoming Explore intern at @Microsoft<br>Hello everyone, my name is Daniel, I'm a software developer based in <i>Mexico</i>, <a href='https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/55d8101f-bd94-410a-829c-5a615a72bdbd' target="_blank" rel="noopener noreferrer">Microsoft Learn Student Ambassador</a> and Data science student at <a href="https://www.escom.ipn.mx/" target="_blank" rel="noopener noreferrer">ESCOM-IPN</a>, I'm passionate about the world of computer science, especially <i>data science and competitive programming.</i><br>
+            I'm currently practicing for <i>programming contests</i>, and I also collaborate in both local and national software communities. My dream is to be a Machine Learning engineer.<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Eyes.png" alt="Eyes" width="25" height="25" />
             </p>
         </section>
     </Reveal>

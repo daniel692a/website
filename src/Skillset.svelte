@@ -17,8 +17,8 @@
     <section class="tools">
         <h3>Programming Languages:</h3>
         <ul>
-            <li><img src="{Python}" alt="Python icon"><span>Python</span></li>
             <li><img src="{Cplusplus}" alt="C++ icon"><span>C++</span></li>
+            <li><img src="{Python}" alt="Python icon"><span>Python</span></li>
             <li><img src="{JavaScript}" alt="JavaScript Icon"><span>JavaScript</span></li>
         </ul>
         <h3>Frontend Tools:</h3>

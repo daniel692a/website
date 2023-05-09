@@ -8,8 +8,8 @@
     </figure>
     <section class="intro">
         <h2>Daniel Armas Ramírez</h2>
-        <h4>Computer Science</h4>
-        <h4>Data Science</h4>
+        <h4>Christian</h4>
+        <h4>Computer/Data Science</h4>
     </section>
 </section>
 
